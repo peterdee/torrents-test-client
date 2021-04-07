@@ -1,6 +1,6 @@
 {
-  "name": "torrent-p2p-client",
-  "version": "0.0.0",
+  "name": "torrents-test-client",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "nodemon ./app.js",

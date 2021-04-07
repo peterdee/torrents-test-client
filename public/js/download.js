@@ -1,5 +1,5 @@
-async function download() {
-  $('#root').empty().append(`
+async function download(anchor = '') {
+  $(`#${anchor}`).empty().append(`
 <form id="download-form">
   <input
     id="magnet-input"

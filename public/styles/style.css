@@ -4,6 +4,7 @@
   --app-background: white;
   --app-text: #110f14;
   --app-text-light: #f9f6ff;
+  --error: #d05432;
   --footer-height: 48px;
   --spacer: 16px;
 }
@@ -24,6 +25,10 @@ body, html {
 
 a, a:visited {
   color: var(--accent);
+}
+
+audio {
+  outline: none;
 }
 
 button {
@@ -88,4 +93,21 @@ textarea {
 }
 .seeding-info {
   text-align: center;
+}
+.download-button {
+  width: 100%;
+}
+.error {
+  color: var(--error);
+  text-align: center;
+  width: 100%;
+}
+.download-progress {
+  color: var(--accent);
+  text-align: center;
+  width: 100%;
+}
+.audio {
+  display: flex;
+  justify-content: center;
 }
